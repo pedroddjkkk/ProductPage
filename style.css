@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans';
+    background-color: #D1DEDB;
+    text-align: center;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-img{     
+    width: 80px;
+    height: 80px;
+}
+@media (width: 100px) {
+    p{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+.nav-link{
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.about-us{
+    padding-top: 30px;
+}
+#about-div{
+    padding-top: 160px;
+}
+.video-div{
+    padding: 60px;
+}
+#email{
+    border-radius: 5px;
+    border: none;
+    width: 220px;
+    height: 24px;
+    margin-left: 10px;
+}
+#submit{
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: gray;
+    cursor: pointer;
+}
+
